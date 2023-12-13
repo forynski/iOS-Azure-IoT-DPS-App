@@ -13,6 +13,7 @@
 		9AEFC40D1F7080E900E53319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFC40B1F7080E900E53319 /* Main.storyboard */; };
 		9AEFC40F1F7080E900E53319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFC40E1F7080E900E53319 /* Assets.xcassets */; };
 		9AEFC4121F7080E900E53319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFC4101F7080E900E53319 /* LaunchScreen.storyboard */; };
+		E1A1710C2B29C12400E8075E /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1A1710B2B29C12400E8075E /* Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9AEFC4B51F70921500E53319 /* MQTT Client Sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MQTT Client Sample-Bridging-Header.h"; sourceTree = "<group>"; };
 		B531E178D4CF0412F7608891 /* Pods-MQTT Client Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTT Client Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MQTT Client Sample/Pods-MQTT Client Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		CE490015F9B94440B61437C6 /* Pods_MQTT_Client_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQTT_Client_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A1710B2B29C12400E8075E /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		EECE9C2FEA1FF3CA05016AFB /* Pods-MQTT Client Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTT Client Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MQTT Client Sample/Pods-MQTT Client Sample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 				9AEFC40B1F7080E900E53319 /* Main.storyboard */,
 				9AEFC40E1F7080E900E53319 /* Assets.xcassets */,
 				9AEFC4101F7080E900E53319 /* LaunchScreen.storyboard */,
+				E1A1710B2B29C12400E8075E /* Config.plist */,
 				9AEFC4131F7080E900E53319 /* Info.plist */,
 			);
 			path = "MQTT Client Sample";
@@ -125,7 +128,7 @@
 					9AEFC4031F7080E900E53319 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 47B5FWBFFT;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = "";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -154,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A1710C2B29C12400E8075E /* Config.plist in Resources */,
 				9AEFC4121F7080E900E53319 /* LaunchScreen.storyboard in Resources */,
 				9AEFC40F1F7080E900E53319 /* Assets.xcassets in Resources */,
 				9AEFC40D1F7080E900E53319 /* Main.storyboard in Resources */,
@@ -363,7 +367,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 47B5FWBFFT;
 				INFOPLIST_FILE = "MQTT Client Sample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Microsoft.MQTT-Client-Sample-iOS-Azure-IoT-Hub-SDK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -383,7 +387,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 47B5FWBFFT;
 				INFOPLIST_FILE = "MQTT Client Sample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Microsoft.MQTT-Client-Sample-iOS-Azure-IoT-Hub-SDK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
