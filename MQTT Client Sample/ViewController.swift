@@ -3,6 +3,7 @@ import AzureIoTHubClient
 import Foundation
 import CoreMotion
 
+
 class ViewController: UIViewController {
    
     private var connectionString: String {
